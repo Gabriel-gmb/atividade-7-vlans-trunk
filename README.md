@@ -36,12 +36,3 @@ show vlan brief
 show spanning-tree vlan 10
 show spanning-tree vlan 20
 ```
-
-## Observação sobre a validação
-
-A validação documentada neste repositório é parcial: foram conferidas as saídas de trunk dos oito switches e as saídas de STP de SW-CORE-01 e SW-DIST-01. Ainda faltam as saídas corretas de `show vlan brief` e os testes de conectividade (PC para PC, notebook para notebook e entre VLANs) para registrar a validação funcional completa.
-
-## Arquivo Packet Tracer
-
-O arquivo `atividade-7-vlans-trunk.pkt` e as capturas de evidência devem ser adicionados a este repositório após o envio dos arquivos correspondentes.
-
